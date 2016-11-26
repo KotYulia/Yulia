@@ -1,0 +1,90 @@
+@font-face {
+  font-family: AFKlampenborg;
+  src: url(../fonts/afklampenborg-medium.ttf);
+  src: url(../fonts/afklampenborg-medium.eot);
+  src: url(../fonts/afklampenborg-medium.svg);
+  src: url(../fonts/afklampenborg-medium.woff);
+}
+@font-face {
+  font-family: Helios;
+  src: url(../fonts/Helios.ttf);
+  src: url(../fonts/Helios.eot);
+  src: url(../fonts/Helios.svg);
+  src: url(../fonts/Helios.woff);
+}
+/* line 14, ../sass/style.sass */
+body {
+  background: linear-gradient(to bottom, #ced8d9, #fff 40%) no-repeat;
+}
+
+/* line 16, ../sass/style.sass */
+.wrapper {
+  width: 776px;
+  margin: 0 auto;
+}
+
+/* line 1, ../sass/header.sass */
+a {
+  text-decoration: none;
+}
+
+/* line 3, ../sass/header.sass */
+.logon {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 17px;
+}
+/* line 7, ../sass/header.sass */
+.logon div {
+  background-color: #fff;
+  border: none;
+  border-radius: 0 0 20px 20px;
+  font: 400 11px "Arial", regular;
+  width: 158px;
+  padding: 7px 21px;
+  text-align: center;
+}
+
+/* line 16, ../sass/header.sass */
+.registration {
+  border-right: 1px solid #959595;
+  color: #747474;
+  padding-right: 10px;
+}
+
+/* line 20, ../sass/header.sass */
+.login {
+  color: #02a4fa;
+  margin-left: 10px;
+}
+
+/* line 24, ../sass/header.sass */
+.logo {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
+}
+/* line 28, ../sass/header.sass */
+.logo h1 {
+  width: 271px;
+  margin: 0;
+}
+/* line 31, ../sass/header.sass */
+.logo h1 a {
+  display: flex;
+  align-items: center;
+  font: 500 21px "AFKlampenborg", Medium;
+  color: #939598;
+}
+/* line 36, ../sass/header.sass */
+.logo h1 a span {
+  margin-left: -5px;
+}
+/* line 38, ../sass/header.sass */
+.logo p {
+  color: #646464;
+  font: 400 15px "Helios", Regular;
+  align-items: center;
+  margin: 0;
+  padding: 21px 29px 0 0;
+}
