@@ -1,0 +1,65 @@
+article
+	display: flex
+	border-bottom: 1px solid #00a7fb
+	padding: 16px 0
+.main-content
+	width: 528px
+	margin-top: 64px
+	h2
+		font: 400 26px "Arial", Regular
+		color: #010101
+		padding-bottom: 16px
+		border-bottom: 1px solid #00a7fb
+.info-company
+	padding-left: 11px
+	width: 393px
+	h3
+		color: #03a7fe
+		font: 400 22px "Arial", Regular
+		text-align: left
+dt
+	padding: 7px 0 6px 8px
+	color: #505050
+	float: left
+	width: 218px
+	font: 400 12px "Arial", Regular
+	border-bottom: 3px solid #fff
+dd
+	padding: 7px 0 6px 8px
+	color: #000
+	font: 400 12px "Arial", Regular
+	border-bottom: 3px solid #fff
+	a
+		color: #000
+dl
+	background-color: #dfe5e6
+.left
+	margin-left: 210px
+@mixin awesome
+	font-family: FontAwesome
+	margin-right: 6px
+	color: #505050
+.tel
+	background-color: #edf0f1
+	border: none
+	a:before
+		content: '\f095'
+		@include awesome
+.mailto
+	background-color: #edf0f1
+	border: none
+	a:before
+		content: '\f1fa'
+		@include awesome
+.ceo, .skype, .smither
+	border: none
+.site
+	color: #03a7fe
+.skype
+	a:before
+		content: '\f17e'
+		@include awesome
+.smither
+	a:before
+		content: '\f173'
+		@include awesome

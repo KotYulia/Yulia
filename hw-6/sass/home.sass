@@ -1,0 +1,59 @@
+@mixin link
+	color: #03a7fe
+	border-bottom: 1px solid #03a7fe
+	font: 400 12px/18px "Arial", Regular
+.main-content
+	width: 530px
+	margin-top: 64px
+	display: flex
+	flex-direction: column
+	h2
+		font: 400 26px "Arial", Regular
+		color: #010101
+		padding-bottom: 16px
+		border-bottom: 1px solid #00a7fb
+	p
+		font: 400 12px/18px "Arial", Regular
+		color: #555
+		float: left
+		a
+			@include link
+	li
+		float: left
+		margin-left: 4px
+		a
+			@include link
+	div
+		font: 400 12px/18px "Arial", Regular
+		color: #78797b
+		display: flex
+		justify-content: flex-end
+.text
+	margin: 20px 0
+.polling
+	width: 300px
+	margin-bottom: 30px
+	&:before
+		content: '\f111  \f111  \f111  '
+		font-family: FontAwesome
+		color: #03a7fe
+	span
+		&:before
+			content: '\f111  \f111  '
+			font-family: FontAwesome
+			color: #555
+	a
+		margin-left: 6px
+		@include link
+		&:after
+			content: '\f101'
+			font-family: FontAwesome
+			color: #03a7fe
+			margin-left: 10px
+.notes
+	width: 178px
+	font: 400 14px "Arial", Regular
+	color: #000
+	padding: 10px 18px
+	border: 3px solid #00a5ff
+	border-radius: 40px

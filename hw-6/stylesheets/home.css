@@ -1,0 +1,92 @@
+@charset "UTF-8";
+/* line 5, ../sass/home.sass */
+.main-content {
+  width: 530px;
+  margin-top: 64px;
+  display: flex;
+  flex-direction: column;
+}
+/* line 10, ../sass/home.sass */
+.main-content h2 {
+  font: 400 26px "Arial", Regular;
+  color: #010101;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #00a7fb;
+}
+/* line 15, ../sass/home.sass */
+.main-content p {
+  font: 400 12px/18px "Arial", Regular;
+  color: #555;
+  float: left;
+}
+/* line 19, ../sass/home.sass */
+.main-content p a {
+  color: #03a7fe;
+  border-bottom: 1px solid #03a7fe;
+  font: 400 12px/18px "Arial", Regular;
+}
+/* line 21, ../sass/home.sass */
+.main-content li {
+  float: left;
+  margin-left: 4px;
+}
+/* line 24, ../sass/home.sass */
+.main-content li a {
+  color: #03a7fe;
+  border-bottom: 1px solid #03a7fe;
+  font: 400 12px/18px "Arial", Regular;
+}
+/* line 26, ../sass/home.sass */
+.main-content div {
+  font: 400 12px/18px "Arial", Regular;
+  color: #78797b;
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* line 31, ../sass/home.sass */
+.text {
+  margin: 20px 0;
+}
+
+/* line 33, ../sass/home.sass */
+.polling {
+  width: 300px;
+  margin-bottom: 30px;
+}
+/* line 36, ../sass/home.sass */
+.polling:before {
+  content: "   ";
+  font-family: FontAwesome;
+  color: #03a7fe;
+}
+/* line 41, ../sass/home.sass */
+.polling span:before {
+  content: "  ";
+  font-family: FontAwesome;
+  color: #555;
+}
+/* line 45, ../sass/home.sass */
+.polling a {
+  margin-left: 6px;
+  color: #03a7fe;
+  border-bottom: 1px solid #03a7fe;
+  font: 400 12px/18px "Arial", Regular;
+}
+/* line 48, ../sass/home.sass */
+.polling a:after {
+  content: "";
+  font-family: FontAwesome;
+  color: #03a7fe;
+  margin-left: 10px;
+}
+
+/* line 53, ../sass/home.sass */
+.notes {
+  width: 178px;
+  font: 400 14px "Arial", Regular;
+  color: #000;
+  padding: 10px 18px;
+  border: 3px solid #00a5ff;
+  border-radius: 40px;
+}

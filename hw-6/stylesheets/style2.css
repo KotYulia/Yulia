@@ -13,13 +13,13 @@
   src: url(../fonts/Helios.svg);
   src: url(../fonts/Helios.woff);
 }
-/* line 14, ../sass/style.sass */
+/* line 14, ../sass/style2.sass */
 body {
   background: linear-gradient(to bottom, #ced8d9, #fff 40%) no-repeat;
   margin: 0;
 }
 
-/* line 17, ../sass/style.sass */
+/* line 17, ../sass/style2.sass */
 .wrapper {
   width: 776px;
   margin: 0 auto;
@@ -179,14 +179,14 @@ body {
   padding: 21px 29px 0 0;
 }
 
-/* line 1, ../sass/tab.sass */
+/* line 1, ../sass/tab2.sass */
 .tab {
   display: flex;
   justify-content: flex-end;
   border-bottom: 1px solid #939598;
   font: 400 16px "Arial", Regular;
 }
-/* line 6, ../sass/tab.sass */
+/* line 6, ../sass/tab2.sass */
 .tab li {
   width: 133px;
   text-align: center;
@@ -195,26 +195,24 @@ body {
   list-style-type: none;
 }
 
-/* line 12, ../sass/tab.sass */
+/* line 12, ../sass/tab2.sass */
 a {
   color: #939598;
 }
 
-/* line 14, ../sass/tab.sass */
+/* line 14, ../sass/tab2.sass */
 .main {
   border-left: 1px solid #939598;
   border-right: 1px solid #939598;
-  margin-bottom: -1px;
-  background: linear-gradient(to top, #e9edee, #fff 60%) no-repeat;
   border-top-left-radius: 30px;
 }
 
-/* line 20, ../sass/tab.sass */
+/* line 18, ../sass/tab2.sass */
 .color {
   color: #45b8fb;
 }
 
-/* line 22, ../sass/tab.sass */
+/* line 20, ../sass/tab2.sass */
 .company {
   margin-right: 27px;
   border-left: 1px solid #939598;
@@ -222,7 +220,13 @@ a {
   border-top-right-radius: 30px;
 }
 
-/* line 23, ../sass/style.sass */
+/* line 25, ../sass/tab2.sass */
+.goal {
+  background: linear-gradient(to top, #e9edee, #fff 60%) no-repeat;
+  margin-bottom: -1px;
+}
+
+/* line 23, ../sass/style2.sass */
 .content {
   display: flex;
 }
@@ -328,96 +332,36 @@ aside {
   padding-right: 14px;
 }
 
-/* line 5, ../sass/home.sass */
+/* line 1, ../sass/goal.sass */
 .main-content {
   width: 530px;
   margin-top: 64px;
-  display: flex;
-  flex-direction: column;
 }
-/* line 10, ../sass/home.sass */
+/* line 4, ../sass/goal.sass */
 .main-content h2 {
   font: 400 26px "Arial", Regular;
   color: #010101;
   padding-bottom: 16px;
   border-bottom: 1px solid #00a7fb;
 }
-/* line 15, ../sass/home.sass */
+/* line 9, ../sass/goal.sass */
+.main-content h3 {
+  font: 400 18px "Arial", Regular;
+  color: #03a7fe;
+  margin-top: 10px;
+}
+/* line 13, ../sass/goal.sass */
 .main-content p {
-  font: 400 12px/18px "Arial", Regular;
+  font: 400 14px/18px "Arial", Regular;
   color: #555;
-  float: left;
-}
-/* line 19, ../sass/home.sass */
-.main-content p a {
-  color: #03a7fe;
-  border-bottom: 1px solid #03a7fe;
-  font: 400 12px/18px "Arial", Regular;
-}
-/* line 21, ../sass/home.sass */
-.main-content li {
-  float: left;
-  margin-left: 4px;
-}
-/* line 24, ../sass/home.sass */
-.main-content li a {
-  color: #03a7fe;
-  border-bottom: 1px solid #03a7fe;
-  font: 400 12px/18px "Arial", Regular;
-}
-/* line 26, ../sass/home.sass */
-.main-content div {
-  font: 400 12px/18px "Arial", Regular;
-  color: #78797b;
-  display: flex;
-  justify-content: flex-end;
-}
-
-/* line 31, ../sass/home.sass */
-.text {
   margin: 20px 0;
+  text-align: justify;
 }
-
-/* line 33, ../sass/home.sass */
-.polling {
-  width: 300px;
-  margin-bottom: 30px;
-}
-/* line 36, ../sass/home.sass */
-.polling:before {
-  content: "   ";
-  font-family: FontAwesome;
-  color: #03a7fe;
-}
-/* line 41, ../sass/home.sass */
-.polling span:before {
-  content: "  ";
-  font-family: FontAwesome;
-  color: #555;
-}
-/* line 45, ../sass/home.sass */
-.polling a {
-  margin-left: 6px;
-  color: #03a7fe;
-  border-bottom: 1px solid #03a7fe;
-  font: 400 12px/18px "Arial", Regular;
-}
-/* line 48, ../sass/home.sass */
-.polling a:after {
-  content: "";
-  font-family: FontAwesome;
-  color: #03a7fe;
-  margin-left: 10px;
-}
-
-/* line 53, ../sass/home.sass */
-.notes {
-  width: 178px;
-  font: 400 14px "Arial", Regular;
-  color: #000;
-  padding: 10px 18px;
-  border: 3px solid #00a5ff;
-  border-radius: 40px;
+/* line 18, ../sass/goal.sass */
+.main-content img {
+  padding: 60px 165px 70px;
+  background-color: #78797b;
+  border-radius: 10px;
 }
 
 /* line 1, ../sass/footer.sass */
