@@ -122,8 +122,6 @@ body {
   display: none;
   pointer-events: none;
   padding: 24px;
-  display: flex;
-  justify-content: space-between;
 }
 /* line 72, ../sass/header.sass */
 .register:target {
@@ -131,11 +129,37 @@ body {
   pointer-events: auto;
 }
 
-/* line 78, ../sass/header.sass */
-.info input {
-  margin-bottom: 6px;
+/* line 75, ../sass/header.sass */
+button {
+  background-color: #00a8ff;
+  padding: 16px 27px;
+  border-radius: 10px;
+  border: none;
+  margin: 0 23px 23px 10px;
+}
+/* line 81, ../sass/header.sass */
+button:after {
+  content: "";
+  font-family: FontAwesome;
+}
+
+/* line 84, ../sass/header.sass */
+.close {
+  float: right;
+  margin: 18px 0;
+}
+
+/* line 87, ../sass/header.sass */
+.info {
+  float: left;
   width: 228px;
-  padding: 12px;
+  margin-right: 10px;
+}
+/* line 91, ../sass/header.sass */
+.info input {
+  width: 228px;
+  margin-bottom: 6px;
+  padding: 7px 12px;
   color: #6badd4;
   font: 400 18px "Arial", regular;
   background-color: #d5f1fa;
@@ -143,36 +167,57 @@ body {
   border: none;
 }
 
-/* line 88, ../sass/header.sass */
-.foto input {
-  background-color: #fff;
-  padding: 10px;
-  border-radius: 10px;
-  border: 2px solid #00a8ff;
+/* line 100, ../sass/header.sass */
+::-webkit-input-placeholder {
+  color: #72b1d7;
 }
 
-/* line 94, ../sass/header.sass */
+/* line 102, ../sass/header.sass */
+::-moz-placeholder {
+  color: #72b1d7;
+}
+
+/* line 104, ../sass/header.sass */
+::-ms-input-placeholder {
+  color: #72b1d7;
+}
+
+/* line 107, ../sass/header.sass */
+.foto input {
+  background-color: #fff;
+  padding: 10px 16px;
+  border-radius: 10px;
+  border: 2px solid #00a8ff;
+  color: #00a8ff;
+  font: 400 14px "Arial", regular;
+}
+/* line 114, ../sass/header.sass */
+.foto img {
+  margin-bottom: 2px;
+}
+
+/* line 116, ../sass/header.sass */
 .logo {
   display: flex;
   justify-content: space-between;
   margin-top: 17px;
 }
-/* line 98, ../sass/header.sass */
+/* line 120, ../sass/header.sass */
 .logo h1 {
   width: 274px;
 }
-/* line 100, ../sass/header.sass */
+/* line 122, ../sass/header.sass */
 .logo h1 a {
   display: flex;
   align-items: center;
   font: 500 21px "AFKlampenborg", Medium;
   color: #939598;
 }
-/* line 105, ../sass/header.sass */
+/* line 127, ../sass/header.sass */
 .logo h1 a span {
   margin-left: -5px;
 }
-/* line 107, ../sass/header.sass */
+/* line 129, ../sass/header.sass */
 .logo p {
   color: #646464;
   font: 400 15px "Helios", Regular;

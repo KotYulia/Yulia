@@ -72,25 +72,47 @@
 	&:target
 		display: block
 		pointer-events: auto
-	display: flex
-	justify-content: space-between
+button
+	background-color: #00a8ff
+	padding: 16px 27px
+	border-radius: 10px
+	border: none
+	margin: 0 23px 23px 10px
+	&:after
+		content: '\f148'
+		font-family: FontAwesome
+.close
+	float: right
+	margin: 18px 0
 .info
+	float: left
+	width: 228px
+	margin-right: 10px
 	input
-		margin-bottom: 6px
 		width: 228px
-		padding: 12px
+		margin-bottom: 6px
+		padding: 7px 12px
 		color: #6badd4
 		font: 400 18px "Arial", regular
 		background-color: #d5f1fa
 		border-radius: 10px
 		border: none
+::-webkit-input-placeholder
+	color: #72b1d7
+::-moz-placeholder
+	color: #72b1d7
+::-ms-input-placeholder
+	color: #72b1d7
 .foto
 	input
 		background-color: #fff
-		padding: 10px
+		padding: 10px 16px
 		border-radius: 10px
 		border: 2px solid #00a8ff
-
+		color: #00a8ff
+		font: 400 14px "Arial", regular
+	img
+		margin-bottom: 2px
 .logo
 	display: flex
 	justify-content: space-between
