@@ -1,0 +1,101 @@
+@charset "UTF-8";
+/* line 1, ../sass/aside.sass */
+aside {
+  width: 230px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* line 7, ../sass/aside.sass */
+.cms-list {
+  padding-bottom: 39px;
+  border-bottom: 1px solid #cbcac9;
+}
+/* line 10, ../sass/aside.sass */
+.cms-list h2 {
+  font: 400 20px "Arial", Regular;
+  color: #03a7fe;
+  margin-top: 25px;
+  margin-bottom: 26px;
+}
+/* line 15, ../sass/aside.sass */
+.cms-list h2:after {
+  content: "";
+  font-family: FontAwesome;
+  color: #03a7fe;
+  margin-left: 8px;
+}
+/* line 21, ../sass/aside.sass */
+.cms-list ul li {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #cbcac9;
+}
+/* line 25, ../sass/aside.sass */
+.cms-list ul li:before {
+  content: "";
+  font-family: FontAwesome;
+  color: #00a5ff;
+  margin-right: 10px;
+}
+/* line 30, ../sass/aside.sass */
+.cms-list ul li:last-child {
+  content: "";
+  border-bottom: none;
+}
+/* line 33, ../sass/aside.sass */
+.cms-list ul li a {
+  color: #555;
+  font: 400 14px "Arial", Regular;
+}
+
+/* line 36, ../sass/aside.sass */
+.rss {
+  font: 500 21px "AFKlampenborg", Medium;
+  color: #939598;
+  padding: 7px 24px 8px 25px;
+  border-radius: 20px;
+  background-color: white;
+  border: 3px solid #ff9600;
+  margin: 16px 60px;
+}
+/* line 44, ../sass/aside.sass */
+.rss:before {
+  content: "";
+  font-family: FontAwesome;
+  color: #ff9600;
+  margin-right: 6px;
+}
+
+/* line 49, ../sass/aside.sass */
+.logotypes-company {
+  border-top: 1px solid #cbcac9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* line 54, ../sass/aside.sass */
+.logotypes-company li {
+  margin-bottom: 15px;
+}
+/* line 56, ../sass/aside.sass */
+.logotypes-company li:first-child {
+  content: "";
+  padding-top: 30px;
+}
+/* line 59, ../sass/aside.sass */
+.logotypes-company img {
+  filter: grayscale(100%);
+  filter: gray;
+  transition: all 1s;
+}
+/* line 63, ../sass/aside.sass */
+.logotypes-company img:hover {
+  filter: none;
+}
+/* line 65, ../sass/aside.sass */
+.logotypes-company .web-shop {
+  padding-right: 14px;
+}

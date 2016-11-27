@@ -1,0 +1,31 @@
+/* line 1, ../sass/goal.sass */
+.main-content {
+  width: 530px;
+  margin-top: 64px;
+}
+/* line 4, ../sass/goal.sass */
+.main-content h2 {
+  font: 400 26px "Arial", Regular;
+  color: #010101;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #00a7fb;
+}
+/* line 9, ../sass/goal.sass */
+.main-content h3 {
+  font: 400 18px "Arial", Regular;
+  color: #03a7fe;
+  margin-top: 10px;
+}
+/* line 13, ../sass/goal.sass */
+.main-content p {
+  font: 400 14px/18px "Arial", Regular;
+  color: #555;
+  margin: 20px 0;
+  text-align: justify;
+}
+/* line 18, ../sass/goal.sass */
+.main-content img {
+  padding: 60px 165px 70px;
+  background-color: #78797b;
+  border-radius: 10px;
+}

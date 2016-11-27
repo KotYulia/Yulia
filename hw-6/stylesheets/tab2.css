@@ -1,0 +1,46 @@
+/* line 1, ../sass/tab2.sass */
+.tab {
+  display: flex;
+  justify-content: flex-end;
+  border-bottom: 1px solid #939598;
+  font: 400 16px "Arial", Regular;
+}
+/* line 6, ../sass/tab2.sass */
+.tab li {
+  width: 133px;
+  text-align: center;
+  border-top: 1px solid #939598;
+  padding: 18px 0;
+  list-style-type: none;
+}
+
+/* line 12, ../sass/tab2.sass */
+a {
+  color: #939598;
+}
+
+/* line 14, ../sass/tab2.sass */
+.main {
+  border-left: 1px solid #939598;
+  border-right: 1px solid #939598;
+  border-top-left-radius: 30px;
+}
+
+/* line 18, ../sass/tab2.sass */
+.color {
+  color: #45b8fb;
+}
+
+/* line 20, ../sass/tab2.sass */
+.company {
+  margin-right: 27px;
+  border-left: 1px solid #939598;
+  border-right: 1px solid #939598;
+  border-top-right-radius: 30px;
+}
+
+/* line 25, ../sass/tab2.sass */
+.goal {
+  background: linear-gradient(to top, #e9edee, #fff 60%) no-repeat;
+  margin-bottom: -1px;
+}

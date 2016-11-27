@@ -1,0 +1,393 @@
+@charset "UTF-8";
+@font-face {
+  font-family: AFKlampenborg;
+  src: url(../fonts/afklampenborg-medium.ttf);
+  src: url(../fonts/afklampenborg-medium.eot);
+  src: url(../fonts/afklampenborg-medium.svg);
+  src: url(../fonts/afklampenborg-medium.woff);
+}
+@font-face {
+  font-family: Helios;
+  src: url(../fonts/Helios.ttf);
+  src: url(../fonts/Helios.eot);
+  src: url(../fonts/Helios.svg);
+  src: url(../fonts/Helios.woff);
+}
+/* line 14, ../sass/style2.sass */
+body {
+  background: linear-gradient(to bottom, #ced8d9, #fff 40%) no-repeat;
+  margin: 0;
+}
+
+/* line 17, ../sass/style2.sass */
+.wrapper {
+  width: 776px;
+  margin: 0 auto;
+}
+
+/* line 1, ../sass/header.sass */
+.logon {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 17px;
+}
+/* line 5, ../sass/header.sass */
+.logon div {
+  background-color: #fff;
+  border: none;
+  border-radius: 0 0 20px 20px;
+  font: 400 11px "Arial", regular;
+  width: 158px;
+  padding: 7px 21px;
+  text-align: center;
+}
+
+/* line 14, ../sass/header.sass */
+.registration {
+  border-right: 1px solid #959595;
+  color: #747474;
+  padding-right: 10px;
+}
+
+/* line 18, ../sass/header.sass */
+.login {
+  color: #02a4fa;
+  margin-left: 10px;
+}
+
+/* line 21, ../sass/header.sass */
+.entry {
+  width: 426px;
+  position: fixed;
+  z-index: 99999;
+  top: 22px;
+  right: 0;
+  background-color: #fff;
+  border-radius: 20px;
+  display: none;
+  pointer-events: none;
+}
+/* line 31, ../sass/header.sass */
+.entry:target {
+  display: block;
+  pointer-events: auto;
+}
+/* line 34, ../sass/header.sass */
+.entry p {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 22px 13px 0;
+}
+/* line 38, ../sass/header.sass */
+.entry p a {
+  font: 400 11px "Arial", regular;
+  color: #606060;
+  width: 105px;
+  margin-right: 0;
+}
+/* line 43, ../sass/header.sass */
+.entry div {
+  display: flex;
+  justify-content: space-between;
+}
+/* line 46, ../sass/header.sass */
+.entry div input {
+  margin: 0 0 23px 23px;
+  width: 153px;
+  padding: 12px;
+  color: #6badd4;
+  font: 400 18px "Arial", regular;
+  background-color: #d5f1fa;
+  border-radius: 10px;
+  border: none;
+}
+/* line 55, ../sass/header.sass */
+.entry div button {
+  background-color: #00a8ff;
+  padding: 16px 27px;
+  border-radius: 10px;
+  border: none;
+  margin: 0 23px 23px 10px;
+}
+
+/* line 61, ../sass/header.sass */
+.register {
+  width: 426px;
+  position: fixed;
+  z-index: 99999;
+  top: 22px;
+  right: 0;
+  background-color: #fff;
+  border-radius: 20px;
+  display: none;
+  pointer-events: none;
+  padding: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+/* line 72, ../sass/header.sass */
+.register:target {
+  display: block;
+  pointer-events: auto;
+}
+
+/* line 78, ../sass/header.sass */
+.info input {
+  margin-bottom: 6px;
+  width: 228px;
+  padding: 12px;
+  color: #6badd4;
+  font: 400 18px "Arial", regular;
+  background-color: #d5f1fa;
+  border-radius: 10px;
+  border: none;
+}
+
+/* line 88, ../sass/header.sass */
+.foto input {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid #00a8ff;
+}
+
+/* line 94, ../sass/header.sass */
+.logo {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
+}
+/* line 98, ../sass/header.sass */
+.logo h1 {
+  width: 274px;
+}
+/* line 100, ../sass/header.sass */
+.logo h1 a {
+  display: flex;
+  align-items: center;
+  font: 500 21px "AFKlampenborg", Medium;
+  color: #939598;
+}
+/* line 105, ../sass/header.sass */
+.logo h1 a span {
+  margin-left: -5px;
+}
+/* line 107, ../sass/header.sass */
+.logo p {
+  color: #646464;
+  font: 400 15px "Helios", Regular;
+  padding: 21px 29px 0 0;
+}
+
+/* line 1, ../sass/tab2.sass */
+.tab {
+  display: flex;
+  justify-content: flex-end;
+  border-bottom: 1px solid #939598;
+  font: 400 16px "Arial", Regular;
+}
+/* line 6, ../sass/tab2.sass */
+.tab li {
+  width: 133px;
+  text-align: center;
+  border-top: 1px solid #939598;
+  padding: 18px 0;
+  list-style-type: none;
+}
+
+/* line 12, ../sass/tab2.sass */
+a {
+  color: #939598;
+}
+
+/* line 14, ../sass/tab2.sass */
+.main {
+  border-left: 1px solid #939598;
+  border-right: 1px solid #939598;
+  border-top-left-radius: 30px;
+}
+
+/* line 18, ../sass/tab2.sass */
+.color {
+  color: #45b8fb;
+}
+
+/* line 20, ../sass/tab2.sass */
+.company {
+  margin-right: 27px;
+  border-left: 1px solid #939598;
+  border-right: 1px solid #939598;
+  border-top-right-radius: 30px;
+}
+
+/* line 25, ../sass/tab2.sass */
+.goal {
+  background: linear-gradient(to top, #e9edee, #fff 60%) no-repeat;
+  margin-bottom: -1px;
+}
+
+/* line 23, ../sass/style2.sass */
+.content {
+  display: flex;
+}
+
+/* line 1, ../sass/aside.sass */
+aside {
+  width: 230px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* line 7, ../sass/aside.sass */
+.cms-list {
+  padding-bottom: 39px;
+  border-bottom: 1px solid #cbcac9;
+}
+/* line 10, ../sass/aside.sass */
+.cms-list h2 {
+  font: 400 20px "Arial", Regular;
+  color: #03a7fe;
+  margin-top: 25px;
+  margin-bottom: 26px;
+}
+/* line 15, ../sass/aside.sass */
+.cms-list h2:after {
+  content: "";
+  font-family: FontAwesome;
+  color: #03a7fe;
+  margin-left: 8px;
+}
+/* line 21, ../sass/aside.sass */
+.cms-list ul li {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #cbcac9;
+}
+/* line 25, ../sass/aside.sass */
+.cms-list ul li:before {
+  content: "";
+  font-family: FontAwesome;
+  color: #00a5ff;
+  margin-right: 10px;
+}
+/* line 30, ../sass/aside.sass */
+.cms-list ul li:last-child {
+  content: "";
+  border-bottom: none;
+}
+/* line 33, ../sass/aside.sass */
+.cms-list ul li a {
+  color: #555;
+  font: 400 14px "Arial", Regular;
+}
+
+/* line 36, ../sass/aside.sass */
+.rss {
+  font: 500 21px "AFKlampenborg", Medium;
+  color: #939598;
+  padding: 7px 24px 8px 25px;
+  border-radius: 20px;
+  background-color: white;
+  border: 3px solid #ff9600;
+  margin: 16px 60px;
+}
+/* line 44, ../sass/aside.sass */
+.rss:before {
+  content: "";
+  font-family: FontAwesome;
+  color: #ff9600;
+  margin-right: 6px;
+}
+
+/* line 49, ../sass/aside.sass */
+.logotypes-company {
+  border-top: 1px solid #cbcac9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* line 54, ../sass/aside.sass */
+.logotypes-company li {
+  margin-bottom: 15px;
+}
+/* line 56, ../sass/aside.sass */
+.logotypes-company li:first-child {
+  content: "";
+  padding-top: 30px;
+}
+/* line 59, ../sass/aside.sass */
+.logotypes-company img {
+  filter: grayscale(100%);
+  filter: gray;
+  transition: all 1s;
+}
+/* line 63, ../sass/aside.sass */
+.logotypes-company img:hover {
+  filter: none;
+}
+/* line 65, ../sass/aside.sass */
+.logotypes-company .web-shop {
+  padding-right: 14px;
+}
+
+/* line 1, ../sass/goal.sass */
+.main-content {
+  width: 530px;
+  margin-top: 64px;
+}
+/* line 4, ../sass/goal.sass */
+.main-content h2 {
+  font: 400 26px "Arial", Regular;
+  color: #010101;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #00a7fb;
+}
+/* line 9, ../sass/goal.sass */
+.main-content h3 {
+  font: 400 18px "Arial", Regular;
+  color: #03a7fe;
+  margin-top: 10px;
+}
+/* line 13, ../sass/goal.sass */
+.main-content p {
+  font: 400 14px/18px "Arial", Regular;
+  color: #555;
+  margin: 20px 0;
+  text-align: justify;
+}
+/* line 18, ../sass/goal.sass */
+.main-content img {
+  padding: 60px 165px 70px;
+  background-color: #78797b;
+  border-radius: 10px;
+}
+
+/* line 1, ../sass/footer.sass */
+.copyright {
+  margin-top: 96px;
+  border-top: 1px solid #a4a4a6;
+  display: flex;
+  justify-content: flex-end;
+}
+/* line 6, ../sass/footer.sass */
+.copyright p {
+  font: 400 10px "Arial", Regular;
+  color: #78797b;
+  padding: 6px 12px 10px;
+  width: 503px;
+  margin-right: 25px;
+  margin-bottom: 32px;
+  background-color: #d9dada;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+/* line 16, ../sass/footer.sass */
+.copyright p span {
+  color: black;
+}
+/* line 18, ../sass/footer.sass */
+.copyright a {
+  margin-left: 246px;
+}

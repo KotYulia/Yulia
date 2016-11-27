@@ -1,0 +1,116 @@
+@charset "UTF-8";
+/* line 1, ../sass/company.sass */
+article {
+  display: flex;
+  border-bottom: 1px solid #00a7fb;
+  padding: 16px 0;
+}
+
+/* line 5, ../sass/company.sass */
+.main-content {
+  width: 528px;
+  margin-top: 64px;
+}
+/* line 8, ../sass/company.sass */
+.main-content h2 {
+  font: 400 26px "Arial", Regular;
+  color: #010101;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #00a7fb;
+}
+
+/* line 13, ../sass/company.sass */
+.info-company {
+  padding-left: 11px;
+  width: 393px;
+}
+/* line 16, ../sass/company.sass */
+.info-company h3 {
+  color: #03a7fe;
+  font: 400 22px "Arial", Regular;
+  text-align: left;
+}
+
+/* line 20, ../sass/company.sass */
+dt {
+  padding: 7px 0 6px 8px;
+  color: #505050;
+  float: left;
+  width: 218px;
+  font: 400 12px "Arial", Regular;
+  border-bottom: 3px solid #fff;
+}
+
+/* line 27, ../sass/company.sass */
+dd {
+  padding: 7px 0 6px 8px;
+  color: #000;
+  font: 400 12px "Arial", Regular;
+  border-bottom: 3px solid #fff;
+}
+/* line 32, ../sass/company.sass */
+dd a {
+  color: #000;
+}
+
+/* line 34, ../sass/company.sass */
+dl {
+  background-color: #dfe5e6;
+}
+
+/* line 36, ../sass/company.sass */
+.left {
+  margin-left: 210px;
+}
+
+/* line 42, ../sass/company.sass */
+.tel {
+  background-color: #edf0f1;
+  border: none;
+}
+/* line 45, ../sass/company.sass */
+.tel a:before {
+  content: "";
+  font-family: FontAwesome;
+  margin-right: 6px;
+  color: #505050;
+}
+
+/* line 48, ../sass/company.sass */
+.mailto {
+  background-color: #edf0f1;
+  border: none;
+}
+/* line 51, ../sass/company.sass */
+.mailto a:before {
+  content: "";
+  font-family: FontAwesome;
+  margin-right: 6px;
+  color: #505050;
+}
+
+/* line 54, ../sass/company.sass */
+.ceo, .skype, .smither {
+  border: none;
+}
+
+/* line 56, ../sass/company.sass */
+.site {
+  color: #03a7fe;
+}
+
+/* line 59, ../sass/company.sass */
+.skype a:before {
+  content: "";
+  font-family: FontAwesome;
+  margin-right: 6px;
+  color: #505050;
+}
+
+/* line 63, ../sass/company.sass */
+.smither a:before {
+  content: "";
+  font-family: FontAwesome;
+  margin-right: 6px;
+  color: #505050;
+}
