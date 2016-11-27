@@ -122,8 +122,6 @@ body {
   display: none;
   pointer-events: none;
   padding: 24px;
-  display: flex;
-  justify-content: space-between;
 }
 /* line 72, ../sass/header.sass */
 .register:target {
@@ -131,7 +129,7 @@ body {
   pointer-events: auto;
 }
 
-/* line 78, ../sass/header.sass */
+/* line 77, ../sass/header.sass */
 .info input {
   margin-bottom: 6px;
   width: 228px;
@@ -143,7 +141,7 @@ body {
   border: none;
 }
 
-/* line 88, ../sass/header.sass */
+/* line 87, ../sass/header.sass */
 .foto input {
   background-color: #fff;
   padding: 10px;
@@ -151,28 +149,28 @@ body {
   border: 2px solid #00a8ff;
 }
 
-/* line 94, ../sass/header.sass */
+/* line 93, ../sass/header.sass */
 .logo {
   display: flex;
   justify-content: space-between;
   margin-top: 17px;
 }
-/* line 98, ../sass/header.sass */
+/* line 97, ../sass/header.sass */
 .logo h1 {
   width: 274px;
 }
-/* line 100, ../sass/header.sass */
+/* line 99, ../sass/header.sass */
 .logo h1 a {
   display: flex;
   align-items: center;
   font: 500 21px "AFKlampenborg", Medium;
   color: #939598;
 }
-/* line 105, ../sass/header.sass */
+/* line 104, ../sass/header.sass */
 .logo h1 a span {
   margin-left: -5px;
 }
-/* line 107, ../sass/header.sass */
+/* line 106, ../sass/header.sass */
 .logo p {
   color: #646464;
   font: 400 15px "Helios", Regular;
