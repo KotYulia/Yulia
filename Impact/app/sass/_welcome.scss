@@ -1,0 +1,86 @@
+#welcome {
+  background-color: #898686;
+  .welcome-menu {
+    .welcome-nav {
+      display: flex;
+      justify-content: space-between;
+      .navbar-welcome {
+        margin: 1rem 0;
+        h1 {
+          margin: 0;
+        }
+      }
+      #navbar-welcome {
+        padding: 0;
+        .nav-impact-welcome {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          text-align: center;
+          li {
+            padding: 1rem 0;
+            border-right: 1px solid #ffffff;
+            border-left: 1px solid #ffffff;
+            a {
+              font-size: 1.5rem;
+              color: #ffffff;
+              padding: 0;
+              &:hover {
+                color: #ffac55;
+                background: transparent;
+              }
+            }
+          }
+          .with-submenu {
+            &:hover .submenu-impact {
+              display: block;
+            }
+            .submenu-impact {
+              display: none;
+              background-color: #ffffff;
+              padding: 2rem;
+              position: absolute;
+              top: 6rem;
+              &:after {
+                content: '';
+                display: block;
+                position: absolute;
+                top: -1px;
+                left: 12%;
+                width: 0;
+                height: 0;
+                border-style: solid;
+                border-width: 2rem 2rem 0 2rem;
+                border-color: #898686 transparent transparent transparent;
+              }
+              .submenu-impact-list {
+                display: flex;
+                padding-left: 0;
+                li {
+                  .impact-list-left, .impact-list-right {
+                    padding-left: 0;
+                    margin-right: 4rem;
+                    li {
+                      border: none;
+                      white-space: nowrap;
+                      padding: 0.2rem;
+                      a {
+                        color: #898686;
+                        text-decoration: none;
+                        &:hover {
+                          color: #61a70a;
+                          background: transparent;
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+}

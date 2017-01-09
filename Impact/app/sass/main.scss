@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,900');
+
+body {
+	a, span, p {
+		font: 400 10px 'Lato', sans-serif;
+	}
+	h1, h2, h3 {
+		font: 700 10px 'Lato', sans-serif;
+		text-transform: uppercase;
+	}
+	ul {
+		list-style: none;
+	}
+}
+@media (min-width: 991px) {
+	.container {
+		width: 97rem;
+	}
+}
+@media (max-width: 990px) {
+	.container {
+		width: 100%;
+		padding: 0 1.5rem;
+	}
+}
+@import "header";
+@import "header320";
+@import "welcome";
+@import "welcome320";
+@import "content";
+@import "content320";
+@import "footer";
+@import "footer320";

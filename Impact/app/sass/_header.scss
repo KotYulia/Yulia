@@ -1,0 +1,125 @@
+#header {
+  .header-top {
+    background-color: #f2f2f2;
+
+    .social-link {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      flex-wrap: wrap;
+      margin-bottom: 0;
+      padding-left: 0;
+      li {
+        padding: 0.5rem 0;
+        .fa {
+          font-size: 2.6rem;
+          margin-right: 2rem;
+          color: #555152;
+          &:hover {
+            color: #0070a1;
+          }
+        }
+        a {
+          font-size: 1.5rem;
+          text-decoration: none;
+        }
+        .donate-link {
+          padding: 1rem 4.6rem;
+          background-color: #61a70a;
+          color: #ffffff;
+          &:hover {
+            color: #fdcd05;
+          }
+        }
+        .volunteer-link {
+          padding: 1rem 3.3rem;
+          background-color: #fdcd05;
+          color: #555152;
+          &:hover {
+            color: #61a70a;
+          }
+        }
+      }
+    }
+  }
+  .header {
+    .header-nav {
+      display: flex;
+      justify-content: space-between;
+      .navbar-header {
+        margin: 3rem 0;
+        h1 {
+          margin: 0;
+        }
+      }
+      #navbar {
+        padding: 0;
+        .nav-impact {
+          margin-top: 2rem;
+          display: flex;
+          justify-content: flex-end;
+          align-items: center;
+          li {
+            a {
+              font-size: 1.5rem;
+              font-weight: 700;
+              color: #4e4e4e;
+              padding: 0 1rem;
+              border-left: 1px solid #4e4e4e;
+              &:hover {
+                color: #61a70a;
+                background: transparent;
+              }
+            }
+            .dropdown-impact {
+              .dropdown-impact-button {
+                background: none;
+                border: none;
+                box-shadow: none;
+                text-shadow: none;
+                font-size: 1.5rem;
+                font-weight: 700;
+                color: #4e4e4e;
+                padding: 0.2rem 1rem 0.1rem;
+                &:hover {
+                  color: #61a70a;
+                }
+              }
+              .dropdown-menu-impuct {
+                text-align: center;
+                box-shadow: none;
+                border: none;
+                padding: 2rem 0;
+                background-color: #acaaaa;
+                left: -4rem;
+                top: 3rem;
+                li {
+                  margin: 0.5em 0;
+                  a {
+                    border: none;
+                    color: #ffffff;
+                    &:hover {
+                      color: #61a70a;
+                    }
+                  }
+                }
+                &:after {
+                  content: '';
+                  display: block;
+                  position: absolute;
+                  top: 0;
+                  left: 40%;
+                  width: 0;
+                  height: 0;
+                  border-style: solid;
+                  border-width: 2rem 2rem 0 2rem;
+                  border-color: #ffffff transparent transparent transparent;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
