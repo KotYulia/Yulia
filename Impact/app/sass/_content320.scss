@@ -1,0 +1,70 @@
+@media (max-width: 767px) {
+  #content {
+    .slogan {
+      p{
+        padding: 1rem;
+        margin-left: 8rem;
+        font-size: 2rem;
+        line-height: 2.5rem;
+        span {
+          font-size: 2rem;
+          line-height: 2.5rem;
+        }
+      }
+    }
+    .main-content {
+      .content-info {
+        margin: 2rem auto;
+        h1 {
+          margin-bottom: 2rem;
+          text-align: end;
+          font-size: 2.2rem;
+        }
+        p {
+          line-height: 2.2rem;
+        }
+      }
+      h2 {
+        font-size: 2rem;
+        margin: 0 -1.5rem 2rem;
+      }
+      ul {
+        margin-bottom: 2rem;
+        a, p {
+          font-size: 1.4rem;
+        }
+      }
+      .news-content {
+        margin-bottom: 2rem;
+        li{
+          margin-bottom: 1rem;
+        }
+        a {
+          line-height: 2rem;
+        }
+      }
+      .calendar-content {
+        span {
+          font-size: 1.6rem;
+        }
+        .calendar-links {
+          margin-top: 3rem;
+          li {
+            margin-bottom: 2rem;
+          }
+        }
+      }
+    }
+    .click-block {
+      padding: 1rem;
+      align-items: flex-end;
+      a {
+        font-size: 1.6rem;
+        line-height: 2.2rem;
+      }
+      .fa {
+        font-size: 3rem;
+      }
+    }
+  }
+}

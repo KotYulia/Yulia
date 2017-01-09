@@ -1,0 +1,192 @@
+#footer {
+  .footer-content {
+    background-color: #acaaaa;
+    .footer-search {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin-top: 2rem;
+      h2 {
+        color: #545051;
+        font-size: 1.9rem;
+        margin: 0;
+      }
+      ul {
+        display: flex;
+        margin-bottom: 0;
+        padding: 0;
+        li {
+          a {
+            text-decoration: none;
+            &:hover {
+              color: #0070a1;
+            }
+          }
+          .fa {
+            color: #ffffff;
+            font-size: 2.6rem;
+            margin: 0 1rem;
+          }
+        }
+      }
+      .search-field {
+        width: 25rem;
+        ::-webkit-input-placeholder {
+          font-size: 1.6rem;
+          color: #545051;
+        }
+        ::-moz-placeholder {
+          font-size: 1.6rem;
+          color: #545051;
+        }
+        ::-moz-placeholder {
+          font-size: 1.6rem;
+          color: #545051;
+        }
+        :-ms-input-placeholder {
+          font-size: 1.6rem;
+          color: #545051;
+        }
+        .input-group-btn {
+          .btn-default {
+            font-size: 1.6rem;
+            padding: 0.5rem;
+            text-transform: uppercase;
+            color: #ffffff;
+            background: #61a70a;
+            font-weight: 400;
+            text-shadow: 0 0 0;
+          }
+
+        }
+      }
+    }
+    .footer-address {
+      margin-top: 3rem;
+      margin-bottom: 3rem;
+      h3 {
+        font-size: 2rem;
+        font-weight: 400;
+        color: #ffffff;
+        padding: 0.5rem 2rem;
+        margin-top: 0;
+        span {
+          padding-right: 0.5rem;
+        }
+      }
+      ul {
+        padding-left: 0;
+        li {
+          font-size: 1.6rem;
+          padding: 0.1rem;
+          color: #545051;
+        }
+      }
+      .duluth-block {
+        h3 {
+          background-color: #742e8a;
+        }
+      }
+      .midtown-block {
+        h3 {
+          background-color: #ff8a00;
+        }
+      }
+      .subscribe-block {
+        form {
+          padding: 0;
+          .sibescribe-form {
+            width: 95%;
+            padding: 2rem;
+            margin: 0 auto;
+            border: 1px dotted #5f5c5d;
+            background-color: #e7e7e7;
+            p {
+              font-size: 1.8rem;
+              font-weight: 700;
+              color: #545051;
+              text-align: start;
+              margin-bottom: 1em;
+            }
+            input {
+              margin: 1rem 0;
+              display: block;
+            }
+            ::-webkit-input-placeholder {
+              font-size: 1.6rem;
+              padding: 0.2rem 1rem;
+              color: #545051;
+            }
+            ::-moz-placeholder {
+              font-size: 1.6rem;
+              padding: 0.2rem 1rem;
+              color: #545051;
+            }
+            ::-moz-placeholder {
+              font-size: 1.6rem;
+              padding: 0.2rem 1rem;
+              color: #545051;
+            }
+            :-ms-input-placeholder {
+              font-size: 1.6rem;
+              padding: 0.2rem 1rem;
+              color: #545051;
+            }
+            .first-mame-input, .email-input {
+              width: 100%;
+            }
+            .subscribe-input {
+              margin: 2rem auto 0;
+              padding: 0.2rem 2rem;
+              font-size: 1.6rem;
+              background: #545051;
+              color: #ffffff;
+              border: none;
+              &:hover {
+                color: #ff8a00;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .footer-end {
+    background-color: #f2f2f2;
+    .impact-copyright {
+      .copyrite-content {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin: 1rem 0;
+        ul {
+          margin-bottom: 0;
+          padding-left: 0;
+          li {
+            float: left;
+            a {
+              font-size: 1.3rem;
+              color: #545051;
+              padding-right: 1rem;
+              text-decoration: none;
+              &:hover {
+                color: #ff8a00;
+              }
+            }
+            .policy-link {
+              border-right: 1px solid #545051;
+            }
+            .disclaimer-link {
+              padding-left: 1rem;
+            }
+          }
+        }
+        p {
+          font-size: 1.3rem;
+          color: #545051;
+        }
+      }
+    }
+  }
+}

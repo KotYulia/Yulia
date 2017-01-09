@@ -1,0 +1,86 @@
+@media (max-width: 767px) {
+  #footer {
+    .footer-content {
+      .footer-search {
+        h2 {
+          font-size: 1.8rem;
+        }
+        ul {
+          padding: 1rem 0;
+        }
+        .search-field {
+          margin-top: 1rem;
+          ::-webkit-input-placeholder {
+            font-size: 1.4rem;
+          }
+          ::-moz-placeholder {
+            font-size: 1.4rem;
+          }
+          ::-moz-placeholder {
+            font-size: 1.4rem;
+          }
+          :-ms-input-placeholder {
+            font-size: 1.4rem;
+          }
+          .input-group-btn {
+            .btn-default {
+              font-size: 1.4rem;
+              padding: 0.6rem;
+            }
+          }
+        }
+      }
+      .footer-address {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        h3 {
+          font-size: 1.8rem;
+        }
+        ul {
+          li {
+            font-size: 1.4rem;
+          }
+        }
+        .subscribe-block {
+          form {
+            .sibescribe-form {
+              width: 100%;
+              p {
+                font-size: 1.6rem;
+              }
+              ::-webkit-input-placeholder {
+                font-size: 1.4rem;
+              }
+              ::-moz-placeholder {
+                font-size: 1.4rem;
+              }
+              ::-moz-placeholder {
+                font-size: 1.4rem;
+              }
+              :-ms-input-placeholder {
+                font-size: 1.4rem;
+              }
+              .subscribe-input {
+                font-size: 1.4rem;
+              }
+            }
+          }
+        }
+      }
+    }
+    .footer-end {
+      .impact-copyright {
+        .copyrite-content {
+          ul {
+            li {
+              padding: 1rem 0;
+            }
+          }
+          p {
+            padding: 1rem 0;
+          }
+        }
+      }
+    }
+  }
+}
